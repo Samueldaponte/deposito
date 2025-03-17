@@ -17,6 +17,10 @@ public class CCuenta {
         cuenta=cue;
         saldo=sal;
     }
+<<<<<<< HEAD
+=======
+    
+>>>>>>> branch 'master' of https://github.com/Samueldaponte/deposito
 
     public String getNombre() {
 		return nombre;

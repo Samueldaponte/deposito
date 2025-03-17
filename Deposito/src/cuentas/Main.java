@@ -2,6 +2,7 @@ package cuentas;
 public class Main {
 
     public static void main(String[] args) {
+<<<<<<< HEAD
         operativa_cuenta(5);
     }
 
@@ -11,6 +12,16 @@ public class Main {
         
 
         cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",2500,0);
+=======
+        operativa_cuenta(2500);
+    }
+
+	private static void operativa_cuenta(float cantidad) {
+		CCuenta cuenta1;
+        double saldoActual;
+
+        cuenta1 = new CCuenta("Antonio López","1000-2365-85-1230456789",cantidad,0);
+>>>>>>> branch 'master' of https://github.com/Samueldaponte/deposito
         saldoActual = cuenta1.estado();
         System.out.println("El saldo actual es"+ saldoActual );
 
